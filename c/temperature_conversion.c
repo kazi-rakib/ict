@@ -14,9 +14,19 @@ int main(){
 
   if(temp == 1){
     // convert from Celsius to Fahrenheit
+  
+    printf("Input temperature in Celsius: ");
+    scanf("%lf", &C);
+    F = (C * 9 / 5 + 32 );
+    printf("Temperature in Fahrenheit is %0.2f degree\n", F);
 
   } else if(temp == 2) {
-    // covert frome Fahrenheit to Celsius
+    // covert from Fahrenheit to Celsius
+
+    printf("Input temperature in Fahrenheit: ");
+    scanf("%lf", &F);
+    C = (F-32) * 5 / 9;
+    printf("Temperature in Celsius is %0.2f degree centigrad\n", C);
 
   } else {
     // user have pressed something other than 1 or 2 !!
