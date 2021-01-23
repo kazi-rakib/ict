@@ -5,11 +5,12 @@ int main(){
   double C, F;
 
   printf("How do you want to convert: \n");
-  printf("\t1. From Celsius to Fahrenheit?\n");
-  printf("\t2. From Fahrenheit to Celsius?\n");
+  printf("\t1. From Celsius to Fahrenheit ?\n");
+  printf("\t2. From Fahrenheit to Celsius ?\n");
 
   int temp;
 
+  printf("Your choice(1 or 2 ?): ");
   scanf("%d", &temp);
 
   if(temp == 1){
